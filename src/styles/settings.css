@@ -1,0 +1,128 @@
+.settings {
+  margin-top: 100px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.settings__wrapper {
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--primary-color);
+}
+
+.settings__title {
+  color: var(--heading-color);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.settings__top {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.setting__btn {
+  border: none;
+  border: none;
+  padding: 7px 25px;
+  background: transparent;
+  border-radius: 5px;
+  color: var(--heading-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.active__btn {
+  background: #b7ffe913;
+}
+
+.profile__title {
+  color: var(--heading-color);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.profile__desc {
+  color: var(--small-text-color);
+  margin-bottom: 2rem;
+}
+
+label {
+  color: var(--heading-color);
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.form__group div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.form__group {
+  display: flex;
+   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.btn_sve{  
+  padding: 12px 12px;
+  background-color: #01d293 !important;
+}
+.form__group div input,select,option {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #b7ffe913;
+  color: var(--heading-color);
+  font-size: 1rem;
+}
+
+
+.form__group div select:focus{
+  background-color:#181b3a;
+}
+.form__group div input::placeholder,select::placeholder,option::placeholder {
+  color: var(--small-text-color);
+  font-size: 0.9rem;
+}
+
+.form__group div input:focus,select:focus,option:focus {
+  outline: none;
+  border: 1px solid #01d293;
+}
+
+.profile-img__desc {
+  color: var(--small-text-color);
+  margin-bottom: 10px;
+}
+
+.profile__img-btns {
+  display: flex;
+  flex-direction: row !important;
+  column-gap: 2.7rem;
+}
+
+.dlt__btn,
+.update__btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #ddd;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.update__btn {
+  color: var(--secondary-color);
+}
+
+
+.main__layout {
+  margin-left: 125px;
+}
